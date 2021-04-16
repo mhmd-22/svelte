@@ -9,6 +9,7 @@ import IfBlock from './IfBlock';
 import KeyBlock from './KeyBlock';
 import InlineComponent from './InlineComponent/index';
 import MustacheTag from './MustacheTag';
+import AppendMustacheTag from './AppendMustacheTag';
 import RawMustacheTag from './RawMustacheTag';
 import Slot from './Slot';
 import SlotTemplate from './SlotTemplate';
@@ -36,6 +37,7 @@ const wrappers = {
 	MustacheTag,
 	Options: null,
 	RawMustacheTag,
+	AppendMustacheTag,
 	Slot,
 	SlotTemplate,
 	Text,
